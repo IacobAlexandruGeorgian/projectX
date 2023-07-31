@@ -13,3 +13,9 @@
 dar poate fi intrerupta si vor fi afisate datele care au fost stocate pana in acel moment.
 
 ![dockerDesktop](https://github.com/IacobAlexandruGeorgian/projectX/assets/84518155/57846a6f-b6e3-42f9-9113-3bf382384ae1)
+
+![commandsPHPContainer](https://github.com/IacobAlexandruGeorgian/projectX/assets/84518155/05eb11e9-7216-463a-b378-40b224740dc4)
+
+![phpmyadmin](https://github.com/IacobAlexandruGeorgian/projectX/assets/84518155/b77b3a0e-d3eb-4a93-b68b-9b2b9bd02fa7)
+
+
