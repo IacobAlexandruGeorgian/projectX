@@ -3,6 +3,8 @@
 	- mysql pentru baza de date
 	- phpmyadmin pentru a vizualiza inregistrarile din baza de date
 
++ primul pas este sa se creeze fisierul .env ( poate fi copiat continutul din .env.example)
+
 + Dupa ce a fost rulata functia: docker-compose up -d --build, se realizeaza urmatorii pasi:
 	- se intra in php container: winpty docker exec -it php //bin//sh (pentru windows)
 	- se ruleaza comanda: php artisan migrate
