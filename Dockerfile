@@ -20,7 +20,7 @@ ADD ./php.ini /usr/local/etc/php/
 
 ENV PORT=8000
 
-ENTRYPOINT [ "Docker/entrypoint.sh" ]
+ENTRYPOINT [ "docker/entrypoint.sh" ]
 
 # node
 
