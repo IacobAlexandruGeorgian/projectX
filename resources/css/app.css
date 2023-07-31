@@ -1,0 +1,159 @@
+
+    /* global */
+
+.body {
+    background-color: rgb(116, 116, 116);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* card */
+  .card {
+    box-shadow: rgba(120, 6, 2, 0.247) 0px 4px 12px;
+  }
+
+  .card:hover {
+    box-shadow: rgba(155, 8, 2, 0.4) 0px 0px 0px 2px,
+      rgba(134, 14, 3, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px;
+  }
+
+  .card .card-img-top {
+    transition: filter 1s ease;
+  }
+
+  .card:hover .card-img-top {
+    filter: brightness(50%);
+  }
+
+  .content {
+    opacity: 0;
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+
+  .card .content:hover {
+    opacity: 1;
+  }
+
+  .card .content .text {
+    height: 0;
+    opacity: 1;
+    color: wheat;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+  }
+
+  .card .content:hover .text {
+    opacity: 1;
+    transform: translateY(150px);
+    -webkit-transform: translateY(150px);
+  }
+
+
+
+  /* pagination */
+
+  .pagination {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .pagination li.page-item {
+    margin-right: 5px;
+  }
+
+  .pagination li.page-item.disabled .page-link {
+    color: #A83A2B;
+  }
+
+  .pagination li.page-item.active .page-link {
+    background-color: #A83A2B;
+    border-color: #A83A2B;
+    color: azure;
+  }
+
+  .pagination li.page-item .page-link {
+    color: #A83A2B;
+    border-radius: 4px;
+    padding: 6px 12px;
+  }
+
+
+  /* header */
+
+  .header {
+    background-color: #A83A2B;
+    border-bottom: solid #A83A2B;
+    margin-bottom: 20px;
+  }
+
+  .header a {
+    color: black;
+  }
+
+  .header a:hover {
+    color: black;
+  }
+
+  .search {
+    margin: 0 auto;
+  }
+
+  /* card details */
+
+  .details {
+    max-width: 1000px;
+    margin: 5%;
+  }
+
+  .details .card-body p {
+    margin: 0;
+  }
+
+  .details .card-body p strong {
+    margin-right: 3px;
+  }
+
+  .content-details {
+    opacity: 0;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+
+  .card .content-details:hover {
+    opacity: 1;
+  }
+
+
+  .card .content-details .text {
+    height: 0;
+    opacity: 1;
+    color: wheat;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+  }
+
+  .card .content-details:hover .text {
+    opacity: 1;
+    transform: translateY(150px);
+    -webkit-transform: translateY(150px);
+  }
+
+
+
+
+
+
+
+
