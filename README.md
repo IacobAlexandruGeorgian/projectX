@@ -16,6 +16,7 @@ dar poate fi intrerupta si vor fi afisate datele care au fost stocate pana in ac
 
 ![commandsPHPContainer](https://github.com/IacobAlexandruGeorgian/projectX/assets/84518155/05eb11e9-7216-463a-b378-40b224740dc4)
 
-![phpmyadmin](https://github.com/IacobAlexandruGeorgian/projectX/assets/84518155/b77b3a0e-d3eb-4a93-b68b-9b2b9bd02fa7)
+![image](https://github.com/IacobAlexandruGeorgian/projectX/assets/84518155/bc201537-a3a9-44bb-b181-a2afb30621d9)
+
 
 
