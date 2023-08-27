@@ -1,16 +1,13 @@
-+ Aplicatia ruleaza in Docker:
-	- redis pentru cache
-	- mysql pentru baza de date
-	- phpmyadmin pentru a vizualiza inregistrarile din baza de date
++ The application runs in Docker:
+	- redis for cache
+	- mysql for the database
+	- phpmyadmin to view the database structure
 
-+ Primul pas este sa se creeze fisierul .env ( poate fi copiat continutul din .env.example)
++ The first step is to create the .env file (you can copy the content from .env.example)
 
-+ Dupa ce a fost rulata functia: docker-compose up, se realizeaza urmatorii pasi:
-	- se intra in php container: winpty docker exec -it php //bin//sh (pentru windows)
-	- se ruleaza comanda: php artisan getData:API (aduce datele din acel API si le stocheaza in baza de date + imaginile in cache/redis)
-
-! Venind foarte multe date pe acel API, e posibil sa dureze comanda pana se finalizeaza complet,
-dar poate fi intrerupta si vor fi afisate datele care au fost stocate pana in acel moment.
++ After the "docker-compose up" function was runned, you need to performed the following steps:
+	- enter the php container: winpty docker exec -it php //bin//sh (for windows)
+	- run the command: php artisan getData:API (brings the data from that API and stores them in the database + the images in the cache/redis)
 
 ![dockerDesktop](https://github.com/IacobAlexandruGeorgian/projectX/assets/84518155/57846a6f-b6e3-42f9-9113-3bf382384ae1)
 
